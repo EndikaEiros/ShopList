@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Series and Films EHU</string>
+    <string name="loginUser">User</string>
+    <string name="loginPass">Password</string>
+    <string name="loginBoton">Sign In</string>
+    <string name="loginSingUpButton">Sing Up</string>
+    <string name="loginCloseButton">Close App</string>
+    <string name="PositiveReaction">Confirm and close</string>
+    <string name="NegativeReaction">Back to App</string>
+    <string name="TextCloseAppDialog">Do you want to exit the App?</string>
+    <string name="TextCloseAppTitle">Confirmn Exit</string>
+</resources>

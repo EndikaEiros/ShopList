@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Series y Peliculas EHU</string>
+    <string name="loginUser">Usuario</string>
+    <string name="loginPass">Contraseña</string>
+    <string name="loginBoton">Iniciar Sesión</string>
+    <string name="loginSingUpButton">Crear Cuenta</string>
+    <string name="loginCloseButton">Cerrar Aplicación</string>
+    <string name="PositiveReaction">Confirmar y salir</string>
+    <string name="NegativeReaction">Volver a la acplicación</string>
+    <string name="TextCloseAppDialog">¿Deseas cerrar la aplicación?</string>
+    <string name="TextCloseAppTitle">Confirmar Salida</string>
+</resources>
