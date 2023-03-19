@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -16,7 +17,7 @@ import androidx.preference.PreferenceManager;
 
 import java.util.Locale;
 
-public class CerrarAppDialog extends DialogFragment {
+public class CerrarAppDialogLogIn extends DialogFragment {
     @NonNull
     @Override
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
@@ -41,6 +42,15 @@ public class CerrarAppDialog extends DialogFragment {
 
             }
         });
+
+        builder.setNeutralButton(R.string.NeutralReaction, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                startActivity(new Intent(getActivity(), loginActivity.class));
+                getActivity().finish();
+            }
+        });
+
         return builder.create();
     }
 

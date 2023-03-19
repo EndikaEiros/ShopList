@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Series y Peliculas EHU</string>
+    <string name="app_name">ShopList</string>
+    <string name="loginUser">Izena</string>
+    <string name="settingsLangTitle">Hizkuntzak</string>
+    <string name="loginPass">Pasabidea</string>
+    <string name="loginBoton">Saioa hasi</string>
+    <string name="loginSingUpButton">Kontua sortu</string>
+    <string name="loginCloseButton">Itxi aplikazioa</string>
+    <string name="PositiveReaction">Berretsi eta irten</string>
+    <string name="NegativeReaction">Itzuli</string>
+    <string name="TextCloseAppDialog">Aplikazioa itxi nahi duzu?</string>
+    <string name="TextCloseAppTitle">Berretsi Irteera</string>
+    <string name="LoginRepeatPassword">Errepikatu pasahitza</string>
+    <string name="SignUpButton">Kontua sortu</string>
+    <string name="settingsNightMode">Gaueko modua</string>
+    <string name="SettingsLang">Aplikazioaren hizkuntza</string>
+    <string name="SettingsLangSumm">Aplikazioaren hizkuntza aldatu</string>
+    <string name="signUpEmail">Emaila</string>
+    <string name="signUpFechanac">Jaio eguna</string>
+    <string name="SignUpGustos">Gustatzen zaizkizun generoak</string>
+    <string name="SignUpErrorFields">ERROREA: Egiaztatu eremu guztiak behar bezala bete direla</string>
+    <string name="SignUpError">Izen hori duen erabiltzaile bat badago, hautatu berri bat</string>
+    <string name="SignUpOk">Kontua sortu da</string>
+    <string name="SignUpErrorPassword">Pasahitzak ez datoz bat</string>
+    <string name="loginOk">Arrakastaz hasi zara saioa</string>
+    <string name="loginError">Ezin izan da saioa hasi, saiatu berriro</string>
+    <string name="NeutralReaction">Itxi sesioa</string>
 </resources>

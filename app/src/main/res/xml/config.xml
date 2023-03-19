@@ -6,13 +6,13 @@
 
         <SwitchPreferenceCompat
             app:key="displayColor"
-            app:title="Modo Nocturno"/>
+            app:title="@string/settingsNightMode"/>
 
         <ListPreference
             app:key="lanpref"
-            app:title="Idioma de la aplicacón"
-            app:summary="Cambia el idioma de la aplicación"
-            app:dialogTitle="Idioma"
+            app:title="@string/SettingsLang"
+            app:summary="@string/SettingsLangSumm"
+            app:dialogTitle="@string/settingsLangTitle"
             app:entries="@array/idioma"
             app:entryValues="@array/codIdioma"/>
 

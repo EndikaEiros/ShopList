@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Series and Films EHU</string>
+    <string name="app_name">"ShopList "</string>
     <string name="loginUser">User</string>
     <string name="loginPass">Password</string>
     <string name="loginBoton">Sign In</string>
@@ -9,4 +9,29 @@
     <string name="NegativeReaction">Back to App</string>
     <string name="TextCloseAppDialog">Do you want to exit the App?</string>
     <string name="TextCloseAppTitle">Confirmn Exit</string>
+    <string name="LoginRepeatPassword">Repeat Password</string>
+    <string name="SignUpButton">Create Account</string>
+    <string name="settingsNightMode">Night Mode</string>
+    <string name="SettingsLang">Application languaje</string>
+    <string name="SettingsLangSumm">Change Application languaje</string>
+    <string name="settingsLangTitle">Languajes</string>
+    <string name="signUpEmail">Email</string>
+    <string name="signUpFechanac">Birth date</string>
+    <string name="SignUpGustos">Genres that you like</string>
+    <string name="SignUpErrorFields">ERROR: Check that all the fields have been filled in correctly</string>
+    <string name="SignUpError">A user with that name already exists, select a new one</string>
+    <string name="SignUpOk">The account has been created successfully</string>
+    <string name="SignUpErrorPassword">Passwords do not match</string>
+    <string name="loginOk">You have successfully logged in</string>
+    <string name="loginError">Could not login, please try again</string>
+    <string name="NeutralReaction">Log Out</string>
+    <string name="MainNewList">Create a new list</string>
+    <string name="newListTitle">Create a new List</string>
+    <string name="newListCreateButton">Save new List</string>
+    <string name="newListImgBtn">Change Image</string>
+    <string name="newListNameHint">List Name</string>
+    <string name="CrearListError">Already exist a list with that name</string>
+    <string name="CrearListaOk">List created</string>
+    <string name="MainActivityListaVacia">There are no lists</string>
+    <string name="CrearListaVacia">Enter a valid name</string>
 </resources>

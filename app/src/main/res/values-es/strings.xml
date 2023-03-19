@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Series y Peliculas EHU</string>
+    <string name="app_name">ShopList</string>
     <string name="loginUser">Usuario</string>
     <string name="loginPass">Contraseña</string>
     <string name="loginBoton">Iniciar Sesión</string>
@@ -10,4 +10,21 @@
     <string name="NegativeReaction">Volver a la acplicación</string>
     <string name="TextCloseAppDialog">¿Deseas cerrar la aplicación?</string>
     <string name="TextCloseAppTitle">Confirmar Salida</string>
+    <string name="LoginRepeatPassword">Repetir Contraseña</string>
+    <string name="SignUpButton">Crear Cuenta</string>
+    <string name="settingsNightMode">Modo Nocturno</string>
+    <string name="SettingsLang">Idioma de la aplicación</string>
+    <string name="SettingsLangSumm">Cambia el idioma de la aplicación</string>
+    <string name="settingsLangTitle">Idiomas</string>
+    <string name="signUpEmail">Email</string>
+    <string name="signUpFechanac">Fecha de Nacimiento</string>
+    <string name="SignUpGustos">Generos que te gustan</string>
+    <string name="SignUpErrorFields">ERROR: Revise que se han rellenado todos los campo correctamente</string>
+    <string name="SignUpError">Ya existe un usuario conese nombre, selecione uno nuevo</string>
+    <string name="SignUpOk">Se ha creado la cuenta correctamente</string>
+    <string name="SignUpErrorPassword">Las contraseñas no coinciden</string>
+    <string name="loginOk">Se ha iniciado sesión correctamente</string>
+    <string name="loginError">No se ha podido inicar sesíon, intentelo de nuevo</string>
+    <string name="NeutralReaction">Cerrar Sesión</string>
+    <string name="MainNewList">Crear una nueva lista</string>
 </resources>

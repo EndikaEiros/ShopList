@@ -4,84 +4,88 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".loginActivity">
+    tools:context=".SignUpActivity">
 
     <EditText
-        android:id="@+id/loginPassTextbox"
-        android:layout_width="245dp"
-        android:layout_height="70dp"
+        android:id="@+id/SignUpPassword2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/loginPass"
+        android:hint="@string/LoginRepeatPassword"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.383" />
+        app:layout_constraintVertical_bias="0.473" />
 
     <EditText
-        android:id="@+id/loginUsuarioTextbox"
-        android:layout_width="245dp"
-        android:layout_height="70dp"
+        android:id="@+id/SignUpUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/loginUser"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.221" />
+        app:layout_constraintVertical_bias="0.116" />
 
-    <Button
-        android:id="@+id/loginLoginButton"
+    <EditText
+        android:id="@+id/SignUpPassword1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="login"
-        android:text="@string/loginBoton"
+        android:ems="10"
+        android:hint="@string/loginPass"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381" />
 
-    <Button
-        android:id="@+id/loginSingUpButton"
+    <EditText
+        android:id="@+id/signUpEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="crearCuenta"
-        android:text="@string/loginSingUpButton"
+        android:ems="10"
+        android:hint="@string/signUpEmail"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.628" />
+        app:layout_constraintVertical_bias="0.208" />
 
-    <Button
-        android:id="@+id/loginCloseButton"
+    <EditText
+        android:id="@+id/signUpFnacim"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="cerrarApp"
-        android:text="@string/loginCloseButton"
+        android:ems="10"
+        android:hint="@string/signUpFechanac"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913" />
+        app:layout_constraintVertical_bias="0.293" />
 
     <Button
-        android:id="@+id/SettingsButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/settingicon"
-        android:onClick="abrirajustes"
+        android:id="@+id/SignUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="CrearCuenta"
+        android:text="@string/SignUpButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038" />
+        app:layout_constraintVertical_bias="0.629" />
 </androidx.constraintlayout.widget.ConstraintLayout>
