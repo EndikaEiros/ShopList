@@ -26,4 +26,26 @@
     <string name="loginOk">Arrakastaz hasi zara saioa</string>
     <string name="loginError">Ezin izan da saioa hasi, saiatu berriro</string>
     <string name="NeutralReaction">Itxi sesioa</string>
+    <string name="MainNewList">"Sortu zerrenda berri bat "</string>
+    <string name="newListTitle">"Sortu zerrenda berri bat "</string>
+    <string name="newListCreateButton">Gorde zerrenda berria</string>
+    <string name="newListImgBtn">Aldatu Irudia</string>
+    <string name="newListNameHint">Zerrendaren izena</string>
+    <string name="CrearListError">Dagoeneko badago izen horrekin zerrenda bat</string>
+    <string name="CrearListaOk">Sortu da zerrenda</string>
+    <string name="MainActivityListaVacia">Ez dago zerrendarik</string>
+    <string name="CrearListaVacia">Mesedez, idatzi baliozko izen bat</string>
+    <string name="btnAddItem">Gehitu elementua zerrendara</string>
+    <string name="ItemName">Izena</string>
+    <string name="ItemDescription">Sartu zerrendara gehitu nahi duzun elementuaren izena</string>
+    <string name="btn_addNewItem">Gehitu elementu berri bat zerrendara</string>
+    <string name="borrarLista">Ezabatu Zerrenda</string>
+    <string name="MandarSMS">Bidali SMSa</string>
+    <string name="Notificacion">Bidali jakinarazpena</string>
+    <string name="ListaItemsVacia">Zerrenda honetan ez dago elementurik</string>
+    <string name="ExisteItem">Elementu hori dagoeneko existitzen da</string>
+    <string name="ItemOk">Gehitu da</string>
+    <string name="smsClipboard">La lista ha sido copiada al portapapeles.</string>
+    <string name="TituloNotificacion">ShopList jakinarazpena</string>
+    <string name="NotificacionContenido">Kaixo, zerrenda berri bat beharko zenuke</string>
 </resources>

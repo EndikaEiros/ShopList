@@ -34,4 +34,17 @@
     <string name="CrearListaOk">List created</string>
     <string name="MainActivityListaVacia">There are no lists</string>
     <string name="CrearListaVacia">Enter a valid name</string>
+    <string name="btnAddItem">Add item to list</string>
+    <string name="ItemName">Item name</string>
+    <string name="ItemDescription">Introduce the name of the item you want to add to the list</string>
+    <string name="btn_addNewItem">Add a new item to the list</string>
+    <string name="borrarLista">Delete List</string>
+    <string name="MandarSMS">Send SMS</string>
+    <string name="Notificacion">Send Notification</string>
+    <string name="ListaItemsVacia">There are no items on this list</string>
+    <string name="ExisteItem">Already exist that item</string>
+    <string name="ItemOk">Added Item</string>
+    <string name="smsClipboard">The list has been coppied to the clipboard</string>
+    <string name="TituloNotificacion">ShopList Notification</string>
+    <string name="NotificacionContenido">Ey there, you could need a new list</string>
 </resources>

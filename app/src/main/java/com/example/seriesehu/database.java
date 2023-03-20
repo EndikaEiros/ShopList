@@ -13,6 +13,7 @@ public class database extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
+
         sqLiteDatabase.execSQL("CREATE TABLE Usuarios (" +
                 "'codigo' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, " +
                 "'usuario' VARCHAR(255), " +
@@ -22,18 +23,14 @@ public class database extends SQLiteOpenHelper {
 
         sqLiteDatabase.execSQL("CREATE TABLE Listas (" +
                 "'usuario' VARCHAR(255), " +
-                "'nombreLista' VARCHAR(255)," +
+                "'nombreLista' VARCHAR(255), " +
                 "'foto' int)");
 
-        /*sqLiteDatabase.execSQL("CREATE TABLE Series (" +
-                "'codigo' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, " +
+        sqLiteDatabase.execSQL("CREATE TABLE tareas (" +
                 "'usuario' VARCHAR(255), " +
-                "'contraseña' VARCHAR(255), " +
-                "'fechaNacimiento' DATE)");
+                "'nombreLista' VARCHAR(255), " +
+                "'item' VARCHAR(255) )");
 
-        sqLiteDatabase.execSQL("CREATE TABLE seguimiento (" +
-                "'cod_usuario' VARCHAR(255), " +
-                "'cod_serie' VARCHAR(255))" );*/
     }
 
     @Override

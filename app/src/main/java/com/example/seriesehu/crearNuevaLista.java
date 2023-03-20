@@ -64,7 +64,7 @@ public class crearNuevaLista extends AppCompatActivity {
         String nombreLista = newListNametextbox.getText().toString();
 
         ImageView newListImage = (ImageView) findViewById(R.id.newListImage);
-        int foto = newListImage.getImageAlpha();
+        int foto = imagenActual;
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(crearNuevaLista.this);
         String usuario = prefs.getString("nombre","test");
@@ -90,14 +90,14 @@ public class crearNuevaLista extends AppCompatActivity {
                 bd.execSQL("INSERT INTO Listas ('usuario', 'nombreLista','foto') " +
                         "VALUES ('" + usuario + "','" + nombreLista + "','"+ foto + "')");
                 Toast.makeText(getApplicationContext(), getString(R.string.CrearListaOk), Toast.LENGTH_LONG).show();
-                Cursor c = bd.rawQuery("SELECT * FROM Usuarios", null);
 
-                Log.d("CREARLista", Integer.toString(c.getCount()));
+                c2.close();
                 bd.close();
 
                 startActivity(new Intent(crearNuevaLista.this, MainActivity.class));
                 finish();
             }
+
         }
 
     }

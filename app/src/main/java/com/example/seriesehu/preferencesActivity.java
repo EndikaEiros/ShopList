@@ -49,14 +49,7 @@ public class preferencesActivity extends AppCompatActivity {
                 break;
         }
 
-        //String idioma = Locale.getDefault().getLanguage();
-        //editor.putString( "lanpref" , "es" );
-        //cambiarIdioma(idioma);
-
         editor.apply();
-        //Boolean resultado= editor.commit();
-
-
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_preferences);

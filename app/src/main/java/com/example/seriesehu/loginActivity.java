@@ -86,6 +86,11 @@ public class loginActivity extends AppCompatActivity {
         String[] columnas = new String[] {"codigo"};
         String [] argumentos = new String[] {usuario,password};
         Cursor cursor = bd.query("Usuarios",columnas,"usuario=? AND contraseña=?",argumentos, null,null,null);
+
+        //bd.delete("Usuarios",null,null);
+        //bd.delete("Listas",null,null);
+        //bd.delete("tareas",null,null);
+
         if(cursor.getCount()>0) {
             cursor.close();
             bd.close();
@@ -96,6 +101,8 @@ public class loginActivity extends AppCompatActivity {
             SharedPreferences.Editor editor= prefs.edit();
             editor.putString("nombre", usuario);
             editor.apply();
+
+            bd.close();
 
             startActivity(new Intent(loginActivity.this, MainActivity.class));
             finish();

@@ -27,4 +27,25 @@
     <string name="loginError">No se ha podido inicar sesíon, intentelo de nuevo</string>
     <string name="NeutralReaction">Cerrar Sesión</string>
     <string name="MainNewList">Crear una nueva lista</string>
+    <string name="newListTitle">Crear una nueva lista</string>
+    <string name="newListCreateButton">Guardar lista</string>
+    <string name="newListImgBtn">Cambiar la imagen</string>
+    <string name="newListNameHint">"Nombre de la lista "</string>
+    <string name="CrearListError">Ya existe una lista con ese nombre</string>
+    <string name="CrearListaOk">La lista ha sido creada.</string>
+    <string name="MainActivityListaVacia">No hay listados</string>
+    <string name="CrearListaVacia">Introduce un nombre válido</string>
+    <string name="btnAddItem">Agregar elemento a la lista</string>
+    <string name="ItemName">Nombre del elemento de la lista</string>
+    <string name="ItemDescription">Ingrese el nombre del elemento que desea agregar a la lista</string>
+    <string name="btn_addNewItem">Agregar un nuevo elemento a la lista</string>
+    <string name="borrarLista">Eliminar lista</string>
+    <string name="MandarSMS">Enviar SMS</string>
+    <string name="Notificacion">Mandar notificación</string>
+    <string name="ListaItemsVacia">No hay elementos en esta lista.</string>
+    <string name="ExisteItem">Ese elemento ya existe</string>
+    <string name="ItemOk">Se ha agregadoi el elementoa la lista</string>
+    <string name="smsClipboard">Se han copiado las tareas al portapapeles</string>
+    <string name="TituloNotificacion">Notification de ShopList</string>
+    <string name="NotificacionContenido">"Ey, puede que necesitas una lista "</string>
 </resources>
